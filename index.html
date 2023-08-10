@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Friday Fun Cup</title>
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/min-667.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   
+    <link rel="icon" type="image/png" href="pics/applogo.png">
+    <link rel="apple-touch-icon" href="pics/applogo.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="loader-container">
+    <div id="loader"></div>
+</div>
+
+<div id="app-content" class="app-content" style="display: hidden;">
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" class="animate-icon active"><i class="fas fa-user"></i></a></li>
+            <li><a href="#" class="animate-icon"><i class="fas fa-trophy"></i></a></li>
+            <li><a href="#" class="animate-icon"><i class="fas fa-chart-bar"></i></a></li>
+            <li><a href="#" class="animate-icon"><i class="fas fa-star"></i></a></li>
+        </ul>
+    </nav>
+    
+    <div id="content" class="content">
+        <div class="team-profile">
+
+            <div class="team-container">
+                <div class="team">
+                    
+                    <img src="pics/b04.png">
+                    <!--<div class="team-logo">
+                        <i class="fas fa-user"></i>
+                    </div>-->
+
+                    <div class="team-info">
+                        <h1>FC Bottinger United</h1>
+                        <h10><i class="fa-regular fa-calendar-check"></i> 01.08.2023</h10>
+                    </div>
+                    <div class="team-edit">
+                        <i class="fa-solid fa-gear"></i>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                </div>
+
+                <div class="players-list">
+                    <div class="player">
+                        <h3>Player 1</h3>
+                        <h4><span class="fi fi-de"></span> PerCent_GER</h4>
+                    </div>
+                    <div class="player">
+                        <h3>Player 2</h3>
+                        <h4><span class="fi fi-tr"></span> crispybaked</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-trophies border-clr">
+                <div class="trophies-item achieved"><img src="pics/1.png"/><h4>1x</h4></div>
+                <div class="trophies-item"><img src="pics/2.png"/><h4>0x</h4></div>
+                <div class="trophies-item"><img src="pics/3.png"/><h4>0x</h4></div>
+            </div>
+<!--
+            <div class="team-charts">
+                <div class="chart-container">
+                    <div class="chart">
+                        <svg id="doughnut-chart"></svg>
+                    </div> 
+                    <h4>Goals</h4>
+                </div>
+                <div class="chart-container">
+                    <div class="chart">
+                        <svg id="doughnut-chart"></svg>
+                    </div> 
+                    <h4>Goals</h4>
+                </div>
+            </div>-->
+
+            <div class="team-stats">
+                <div class="team-stats-item">
+                    <li>Trophies:</li>
+                    <span>1</span>
+                </div>
+                <div class="team-stats-item">
+                    <li>Wins:</li>
+                    <span>6</span>
+                </div>
+                <div class="team-stats-item">
+                    <li>Draws:</li>
+                    <span>1</span>
+                </div>
+                <div class="team-stats-item">
+                    <li>Losses:</li>
+                    <span>1</span>
+                </div>
+                <div class="team-stats-item">
+                    <li>Goals:</li>
+                    <span>+11</span>
+                </div>
+            </div>
+            
+            <div id="latest-matches" class="team-latest-matches">
+                    <ul>
+                        <li>#00056</li>
+                        <li>FFC #12</li>
+                        <li>Final</li>
+                        <li><img src="pics/bsc.png"/></li>
+                        <li>Hertha BSC</li>
+                        <li>3-0</li>
+                        <li>win</li>
+                    </ul>
+                    <ul>
+                        <li>#00042</li>
+                        <li>FFC #12</li>
+                        <li>1/2</li>
+                        <li><img src="pics/b04.png"/></li>
+                        <li>Bayer 04 Leverkusen</li>
+                        <li>4-2</li>
+                        <li>win</li>
+                    </ul>
+                    <ul>
+                        <li>#00035</li>
+                        <li>FFC #12</li>
+                        <li>1/4</li>
+                        <li><img src="pics/wkrs.png"/></li>
+                        <li>Wadenkrampf RS</li>
+                        <li>2-1</li>
+                        <li>win</li>
+                    </ul>
+                    <ul>
+                        <li>#00029</li>
+                        <li>FFC #12</li>
+                        <li>1/8</li>
+                        <li><img src="pics/bsc.png"/></li>
+                        <li>SpVgg Donnerwetter 23C</li>
+                        <li>1-0</li>
+                        <li>win</li>
+                    </ul>
+                    <ul>
+                        <li>#00035</li>
+                        <li>FFC #12</li>
+                        <li>1/16</li>
+                        <li><img src="pics/bsc.png"/></li>
+                        <li>SpVgg Donnerwetter 23C</li>
+                        <li>12-8</li>
+                        <li>win</li>
+                    </ul>
+                    <ul>
+                        <li>#00035</li>
+                        <li>FFC #12</li>
+                        <li>Group</li>
+                        <li><img src="pics/bsc.png"/></li>
+                        <li>SpVgg Donnerwetter 23C</li>
+                        <li>0-1</li>
+                        <li>lose</li>
+                    </ul>
+                    <ul>
+                        <li>#00035</li>
+                        <li>FFC #12</li>
+                        <li>Group</li>
+                        <li><img src="pics/bsc.png"/></li>
+                        <li>SpVgg Donnerwetter 23C</li>
+                        <li>2-2</li>
+                        <li>draw</li>
+                    </ul>
+                    
+            </div>
+
+            <script>
+
+            </script>
+        </div>
+        
+    </div>
+</div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/countdown.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="js/doughnutchart.js"></script>
+<script src="js/listclr.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pulltorefreshjs/0.1.22/pulltorefresh.min.js"></script>
+<script src="js/pulltorefresh.js"></script>
+<script src="js/loading.js"></script>
+</html>
